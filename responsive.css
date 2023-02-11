@@ -1,17 +1,29 @@
 @media screen and (max-width:992px) {
-    
+    .introInfo h1{
+        font-size: 4rem;
+    }
+    .introInfo h3{
+        font-size: 2rem;
+    }
     .introImg{
         width: 100%;
     }
     .introInfo{
         width: 100%;
     }
+    .about{
+        font-size: 1.3rem;
+     }
     .projects{
         padding: 40px 20px;
+        font-size: 1.3rem;
     }
     .projectBox{
         width: 48%;
         margin: 20px 0px;
+     }
+     .connected{
+        font-size: 1.3rem;
      }
 }
 @media screen and (max-width:600px) {
@@ -29,14 +41,14 @@
         margin-bottom: 10px;
     }
     .introInfo h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .introInfo h3{
         font-size: 1.5rem;
     }
     .introInfo a i{
         margin: 0px 5px;
-        font-size: 20px;
+        font-size: 22px;
     }
     .aboutContact{
         width: 80%;
