@@ -1,0 +1,64 @@
+@media screen and (max-width:992px) {
+    
+    .introImg{
+        width: 100%;
+    }
+    .introInfo{
+        width: 100%;
+    }
+    .projects{
+        padding: 40px 20px;
+    }
+    .projectBox{
+        width: 48%;
+        margin: 20px 0px;
+     }
+}
+@media screen and (max-width:600px) {
+    .intro{
+        height: 70vh;
+    }
+    .introImg{
+        margin-top: 15px;
+        width: 100%;
+    }
+    .introInfo{
+        width: 100%;
+    }
+    .introInfo h1,h3{
+        margin-bottom: 10px;
+    }
+    .introInfo h1{
+        font-size: 2rem;
+    }
+    .introInfo h3{
+        font-size: 1.5rem;
+    }
+    .introInfo a i{
+        margin: 0px 5px;
+        font-size: 20px;
+    }
+    .aboutContact{
+        width: 80%;
+        padding: 0px 10px;
+     }
+     .aboutContent{
+        margin-bottom: 20px;
+        padding: 0px 10px;
+        width: 80%;
+     }
+    .projects{
+        padding: 40px 20px;
+    }
+    .projectBox{
+        height: 220px;
+        width: 80%;
+        margin: 20px auto;
+     }
+     .projectContent{
+        margin-bottom: 10px;
+     }
+     .projectContent i {
+        font-size: 4.5rem;
+    }
+}

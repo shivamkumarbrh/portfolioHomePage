@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Raleway&family=Source+Code+Pro&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Itim', cursive;
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.introImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.introImg img{
+    width:300px;
+    border-radius: 5px;
+    height: 300px;
+    object-fit: contain;
+}
+.introInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.introInfo h1,h3{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.introInfo h1{
+    font-size: 4rem;
+}
+.introInfo h3{
+    font-size: 2rem;
+}
+.introInfo .auto-type{
+    color: white;
+}
+.introInfo a{
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+}
+.introInfo a i{
+    margin: 0px 5px;
+    font-size: 20px;
+}
+
+ /* about section  */
+
+ .about{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 60px 20px;
+    text-align: justify;
+    box-sizing: border-box;
+ }
+ .aboutContact{
+    width: 50%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+ }
+ .aboutContent{
+    width: 50%;
+    padding: 0px 50px;
+    box-sizing: border-box;
+ }
+ .about h2{
+    margin-bottom: 20px;
+ }
+ .aboutContact p{
+    margin-bottom: 20px;
+ }
+ .aboutContact a{
+    padding: 8px 12px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(224, 62, 62);
+    color: white;
+ }
+ .aboutContact a:hover{
+   background-color: rgb(243, 97, 97) ;
+ }
+
+ .projects{
+    padding: 60px 20px;
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+ }
+ .projectBox{
+    width: 22%;
+    box-shadow: 0px 0px 2px white;
+    height: 250px;
+    color: white;
+    background-color:#f06d55;
+    text-align: center;
+    border-radius: 5px;
+ }
+ 
+ .projectContent{
+    text-align: center;
+    margin-bottom: 40px;
+ }
+ .projectContent i{
+    font-size: 6rem;
+    margin: 10px 0px;
+ }
+ .projectBox a{
+    display: inline-block;
+    text-decoration: none;
+    background-color:#f06d55;
+    color: white;
+    margin: 10px 0px;
+    border: 3px solid white;
+    padding: 10px 12px;
+    border-radius: 5px;
+ }
+ .projectBox a:hover{
+   background-color:#ec806d ;
+ }
+ /* connected  */
+ .connected{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 0px;
+ }
+ .connected h2{
+     margin:0px 0px 10px 0px;
+    }
+    .connected h3{
+    margin: 10px 0px;
+}
+ .connected p a{
+    color: white;
+    text-decoration: none;
+ }
+ .connected a i{
+    margin: 0px 5px;
+    font-size: 20px;
+}
